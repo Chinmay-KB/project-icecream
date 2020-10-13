@@ -11,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  file_picker: ^2.0.7
+  screenshot: ^0.2.0
+  image: ^2.1.18
 
   cupertino_icons: ^1.0.0
 
@@ -20,3 +23,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
